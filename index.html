@@ -11,27 +11,56 @@
 	<body>
 		<div class="content">
 			<div class="image">
-				<img src="images/logo.png" alt="logo" />
-				<div class="logo">Odin</div>
+				<div class="logo">
+					<img src="images/logo.svg" alt="logo" />
+					<h1 class="odin">Loremipsum</h1>
+				</div>
 			</div>
 			<div class="right">
-				<div class="message"></div>
-				<form action="">
-					<label for="first_name">First Name</label>
-					<input type="text" name="first_name" placeholder="Thor" />
-					<label for="last_name">Last Name</label>
-					<input type="text" name="last_name" placeholder="Odinson" />
-					<label for="email">Email</label>
-					<input type="text" name="email" />
-					<label for="phone">Phone Number</label>
-					<input type="text" name="phone" />
-					<label for="password">Password</label>
-					<input type="text" name="password" />
-					<label for="confirm_password">Confirm Password</label>
-					<input type="text" name="confirm_password" />
+				<div class="message left">
+					<p>
+						This is not a real online service! Lorem ipsum dolor sit amet
+						consectetur, adipisicing elit. Necessitatibus, commodi!
+					</p>
+					<p>Sign up <em>now</em> to get started</p>
+					<p class="remote-text">you <em>know</em> you want to</p>
+				</div>
+				<form action="#">
+					<div class="form-content left">
+						<em class="form-title">Let's do this!</em>
+						<div class="input">
+							<label for="first_name">First Name</label>
+							<input type="text" name="first_name" required />
+						</div>
+						<div class="input">
+							<label for="last_name">Last Name</label>
+							<input type="text" name="last_name" required />
+						</div>
+						<div class="input">
+							<label for="email">Email</label>
+							<input type="email" name="email" required />
+						</div>
+						<div class="input">
+							<label for="phone">Phone Number</label>
+							<input type="text" name="phone" required />
+						</div>
+						<div class="input">
+							<label for="password" >Password</label>
+							<input type="password" name="password" id="password" required />
+						</div>
+						<div class="input">
+							<label for="confirm_password" >Confirm Password</label>
+							<input type="password" name="confirm_password" id="confirm" required />
+						</div>
+					</div>
+					<div class="form-button left">
+						<button type="submit">Create Account</button>
+					</div>
 				</form>
-				<button>Create Account</button>
-				<div class="login">Already have an account? <a href="#">Log in</a></div>
+				<div class="login left">
+					<p>Already have an account?</p>
+					<a href="#">Log in</a>
+				</div>
 			</div>
 		</div>
 	</body>
